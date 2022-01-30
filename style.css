@@ -1,0 +1,38 @@
+body{
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://lh3.googleusercontent.com/NsMGr_u6Zg5NSvs-2dfL2ZLMxIPcDjwTI5QviCwSsH09tlnGj7FY4D3c4wF-XyUTCNKo-WOiIsD5VYxk6f0_IRRGVzk=s750");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.highlightme { background-color:lightblue; }
+h1{
+
+    text-align: center;
+    font-size: 50px;
+}
+a
+{
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+}
+
+.top{
+    width: 100%;
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align: center;
+    margin: 0;
+}
+form{
+    font-size: 30px;
+    margin-top: 10%;
+    background-color: azure;
+    width:20%;
+    margin-left: 40%;
+}
