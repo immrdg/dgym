@@ -1,0 +1,59 @@
+body {
+    font-family: monospace;
+    margin: 50px;
+
+    font-size: 20px;
+    position: absolute;
+}
+
+.container{
+    width: 122% !important;
+}
+.pos {
+    position: relative;
+}
+.pers-image {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    align-self: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: relative; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+button {
+    border: 0px solid black;
+    border-radius: 50%;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000000;
+}
